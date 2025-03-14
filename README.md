@@ -1,6 +1,6 @@
-# EcoTrends
+## Eco Trends
 
-Alexandre Delfino - RM560059
-Enzo Luciano - RM559557
-Felipe Molinari - RM559885
+Alexandre Delfino - RM560059\
+Enzo Luciano - RM559557\
+Felipe Molinari - RM559885\
 Livia Pereira - RM559414
