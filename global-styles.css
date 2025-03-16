@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Scada:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root{
+    --bs-primary-50: #B5FFE1;
+    --bs-primary-100: #93E5AB;
+    --bs-primary-150: #65B891;
+    --bs-primary-200: #4E878C;
+    --bs-primary-250: #00241B;
+    --bs-grayscale-50: #586763;
+    --bs-grascale-100: #C5E2D5;
+    --font-family-sans-serif:"Scada", "Inter"
+
+}
+
+body{
+    font-family: var(--font-family-sans-serif);
+}
+
+header{
+    font-size: 24px;
+}
+
+.nav-link{
+    color: white ;
+    fill: white;
+}
+
+.nav-link.nav-icon>img{
+    content: url(assets/vectors/InactiveShoppingCartIcon.svg)
+
+}
+
+.nav-link.nav-icon:focus>img{
+    content: url(assets/vectors/ShoppingCartIcon.svg)
+
+}
+
+.nav-link.nav-icon:hover>img{
+    content: url(assets/vectors/ShoppingCartIcon.svg)
+
+}
+
+.nav-link.nav-icon.active>img{
+    content: url(assets/vectors/ShoppingCartIcon.svg)
+}
+
+.nav-link:focus{
+    color:  var(--bs-primary-200);
+}
+
+.nav-link:hover {
+    color:  var(--bs-primary-200);
+}
+
+.nav-link.active{
+    color: var(--bs-primary-200) !important;
+}
