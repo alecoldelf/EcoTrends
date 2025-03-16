@@ -62,6 +62,10 @@ footer {
 
 .estrelas {
     display: flex;
+    align-items: right;
+    justify-content: right;
+    text-align: center;
+    margin-right: 15px;
 }
 
 .star-icon {
@@ -93,4 +97,8 @@ footer {
     font-size: 50px;
     line-height: 34px;
   }
+}
+
+.titulos1 {
+    margin-bottom: -15px;
 }
