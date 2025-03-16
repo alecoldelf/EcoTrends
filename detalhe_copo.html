@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Detalhe Fralda</title>
+  <link rel="stylesheet" href="detalhe_produtos.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+</head>
+<body>
+
+  <div class="container my-5">
+    <div class="row mb-3">
+      <div class="col-12">
+        <a href="#" class="back-btn">
+            <span class="arrow">&#x2190;</span> Voltar
+          </a>          
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- Carrossel de Imagens -->
+      <div class="col-md-4">
+        <div id="carouselCamiseta" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselCamiseta"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselCamiseta"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselCamiseta"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">             
+              <img
+                src="imagens/copo_eco1.jpg"
+                class="d-block w-100"
+                alt="Copo Eco 1"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="imagens/copo_eco2.jpg"
+                class="d-block w-100"
+                alt="Copo Eco 2"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="imagens/copo_eco3.webp"
+                class="d-block w-100"
+                alt="Copo Eco 3"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselCamiseta"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselCamiseta"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Detalhes do Produto -->
+      <div class="col-md-5">
+        <h1 class="product-name">Copo Eco Sustentável</h1>
+        <p class="product-description">
+          Este copo é produzido com material reutilizável e reciclável, podendo ser descartado de maneira segura sem agredir o meio ambiente.
+        </p>
+
+        <!-- Escolha de tamanho -->
+        <div class="product-options mt-3">
+          <h4 class="mb-2">Tamanhos:</h4>
+          <div class="btn-group" role="group" aria-label="Escolha o tamanho">
+            <input type="radio" class="btn-check" name="size" id="sizePP" autocomplete="off" />
+            <label class="btn btn-outline-secondary" for="sizePP">Grande</label>
+
+            <input type="radio" class="btn-check" name="size" id="sizeP" autocomplete="off" />
+            <label class="btn btn-outline-secondary" for="sizeP">Médio</label>
+
+            <input type="radio" class="btn-check" name="size" id="sizeM" autocomplete="off" />
+            <label class="btn btn-outline-secondary" for="sizeM">Pequeno</label>
+
+          </div>
+        </div>
+
+        <!-- Escolha de cor -->
+        <div class="product-colors mt-4">
+          <h4 class="mb-2">Cores:</h4>
+          <div class="d-flex">   
+            <div class="color-swatch me-2" style="background-color: #B5FFE1;"></div>
+            <div class="color-swatch me-2" style="background-color: #93E5AB;"></div>
+            <div class="color-swatch me-2" style="background-color: #65B891;"></div>
+            <div class="color-swatch me-2" style="background-color: #4E878C;"></div>
+            <div class="color-swatch me-2" style="background-color: #00241B;"></div>
+          </div>
+        </div>
+
+       
+        <div class="product-actions mt-4">
+          <button class="btn btn-eco">Adicionar ao Carrinho</button>
+        </div>
+      </div>
+
+<!-- Sugestões -->
+<div class="col-md-3">
+    <h4 class="suggestions-title">Sugestões</h4>
+ 
+    <div class="suggestions-container p-3">
+      <div class="suggestion-item mb-3">
+        <a href="detalhe_camiseta.html">Camiseta Ecológica</a>
+        <div class="suggestion-image mt-2">
+          <img src="imagens/camiseta_eco3.webp" alt="Imagem Camiseta" />
+        </div>
+      </div>
+      <div class="suggestion-item mb-3">
+        <a href="detalhe_desinfetante.html">Desinfetante Eco</a>
+        <div class="suggestion-image mt-2">
+          <img src="imagens/desinfetante_eco1.jpg" alt="Imagem Desinfetante Eco" />
+        </div>
+      </div>
+      <div class="suggestion-item mb-3">
+        <a href="detalhe_hidratante.html">Hidratante Eco</a>
+        <div class="suggestion-image mt-2">
+          <img src="imagens/hidratante_eco.webp" alt="Imagem Hidratante Eco" />
+        </div>
+      </div>
+      <div class="suggestion-item mb-3">
+        <a href="detalhe_fralda.html">Fralda Eco</a>
+        <div class="suggestion-image mt-2">
+          <img src="imagens/fralda_ecologica.webp" alt="Imagem Fralda Eco" />
+        </div>
+      </div>     
+    </div>
+  </div>  
+  </div>
+      </div>
+    </div>
+  </div>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+  ></script>
+</body>
+</html>
