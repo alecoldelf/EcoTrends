@@ -129,3 +129,32 @@ footer {
     border-radius: 5px;
     box-shadow: 1px 1px black;
 }
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: menu;
+}
+
+footer {
+    grid-area: footer;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .produto {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .carousel {
+        width: 100%;
+        height: auto;
+    }
+}
