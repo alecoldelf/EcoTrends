@@ -7,22 +7,94 @@
     --bs-primary-200: #4E878C;
     --bs-primary-250: #00241B;
     --bs-grayscale-50: #586763;
-    --bs-grascale-100: #C5E2D5;
+    --bs-grayscale-100: #C5E2D5;
+    --bs-grayscale-150: #0A0A0A;
     --font-family-sans-serif:"Scada", "Inter"
 
 }
 
-body{
-    font-family: var(--font-family-sans-serif);
+.bg-primary-50, .btn-primary-50{
+    background-color: var(--bs-primary-50) !important;
+}
+.bg-primary-100, .btn-primary-100{
+    background-color: var(--bs-primary-100) !important;
+}
+.bg-primary-150, .btn-primary-150{
+    background-color: var(--bs-primary-150) !important;
+}
+.bg-primary-200, .btn-primary-200{
+    background-color: var(--bs-primary-200) !important;
+}
+.bg-primary-250, .btn-primary-250{
+    background-color: var(--bs-primary-250) !important;
+}
+.bg-grayscale-50, .btn-grayscale-50{
+    background-color: var(--bs-grayscale-50) !important;
+}
+.bg-grayscale-100, .btn-grayscale-100{
+    background-color: var(--bs-grayscale-100) !important;
 }
 
-header{
-    font-size: 24px;
+.text-primary-50{
+    color: var(--bs-primary-50) !important;
+}
+.text-primary-100{
+    color: var(--bs-primary-100) !important;
+}
+.text-primary-150{
+    color: var(--bs-primary-150) !important;
+}
+.text-primary-200{
+    color: var(--bs-primary-200) !important;
+}
+.text-primary-250{
+    color: var(--bs-primary-250) !important;
+}
+.text-grayscale-50{
+    color: var(--bs-grayscale-50) !important;
+}
+.text-grayscale-100{
+    color: var(--bs-grayscale-100) !important;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: var(--font-family-sans-serif);
+    position: relative;
+    height: 100vh;
+    min-width: 360px;
+    padding-bottom: 20px;
+}
+
+main{
+    margin-top: 123px;
+    height: inherit;
+    width: inherit;
+}
+
+.navbar-nav{
+    grid-gap: 16px;
+
 }
 
 .nav-link{
     color: white ;
     fill: white;
+}
+
+.nav-link img{
+    width: 42px;
+    height: 42px;
+}
+
+.nav-link{
+    font-size: 32px;
 }
 
 .nav-link.nav-icon>img{
@@ -54,4 +126,27 @@ header{
 
 .nav-link.active{
     color: var(--bs-primary-200) !important;
+}
+
+footer{
+    display: block;
+    background-color: var(--bs-grayscale-150);
+    padding: 50px;
+    grid-gap: 12px;
+    width: inherit;
+}
+
+footer img{
+    width: 300px;
+    height: 97px;
+    margin-left: 50px;
+}
+
+.footer-container{
+    text-align: center;
+    color: white;
+}
+
+.footer-highlight{
+    color: var(--bs-primary-200);
 }
