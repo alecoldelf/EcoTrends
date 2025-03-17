@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTrends</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">EcoTrends</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Produto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Carrinho(Ícone)</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="d-flex justify-content-center align-items-start" style="min-height: 100vh; padding: 20px;">
+        <div class="container">
+            <div class="row justify-content-between">
+                <!-- Artigo à esquerda -->
+                <article class="col-md-5 align-self-center">
+                    <h1 class="fw-bold text-primary-150 text-lg display-5">Nos contate e mande suas ideias</h1>
+                    <div class="contact-info fst-italic">
+                        <div>
+                            <i class="fa-solid fa-envelope fa-xl"></i>
+                            ecotrends@email.com
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-phone fa-xl"></i>
+                            (11) 98765-4321
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-instagram fa-xl"></i>
+                            @ecotrend.oficial
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Artigo à direita -->
+                <article class="col-md-5 border-primary-200 rounded-lg position-relative form" style="border-radius: 30px; ">
+                    <h2 class="text-primary-150 font-weight-bold">Nos mande uma mensagem</h2>
+                    <form action="">
+                        <div class="mb-3">
+                            <input type="text" class="form-control border-primary-200" style="border-radius: 10px;" placeholder="Nome Completo">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control border-primary-200" style="border-radius: 10px;" placeholder="Email">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control border-primary-200" style="border-radius: 10px;" placeholder="Assunto">
+                        </div>
+                        <div class="mb-3">
+                            <label for="" class="text-primary-150 fw-bold">Conte suas ideias</label>
+                            <textarea class="form-control textarea border-primary-200" style="border-radius: 10px;" rows="7"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn btn-primary-200 btn-block text-grayscale-100 position-absolute p-2 button w-100" style="border-radius: 10px; cursor: pointer;">
+                                Enviar
+                            </button>
+                        </div>
+                    </form>
+                </article>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
