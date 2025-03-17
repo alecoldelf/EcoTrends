@@ -111,3 +111,21 @@ footer {
 .fileira a {
     text-decoration: none;
 }
+
+.filtroPreco {
+    color: #B5FFE1;
+    margin-left: 15px;
+}
+
+.filtroPreco input {
+    color: #B5FFE1;
+    background-color: black;
+}
+
+.filtroPreco button {
+    color: #B5FFE1;
+    background-color: #00241B;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px black;
+}
