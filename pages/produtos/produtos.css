@@ -4,11 +4,6 @@ body {
     margin: 0;
 }
 
-header {
-    height: 100px;
-    background-color: black;
-}
-
 main {
     display: flex;
 }
@@ -58,11 +53,6 @@ main {
 
 .carousel img {
     background-image: none; 
-}
-
-footer {
-    height: 100px;
-    background-color: black;
 }
 
 .estrelas {
