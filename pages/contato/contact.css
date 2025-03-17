@@ -1,0 +1,45 @@
+.contact-info div {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+.contact-info img {
+    width: 24px;
+    height: 24px;
+}
+.contact-info {
+    margin-top: 150px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+}
+
+.border-primary-200 {
+    border: 2px solid var(--bs-primary-200);
+}
+
+.button {
+    bottom: -20px;
+    left: 50%;
+    max-width: 60%;
+    transform: translateX(-50%);
+}
+
+.textarea {
+    resize: none;
+    padding: 10px;
+    height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form {
+    padding: 60px;
+    margin-top: 90px;
+}
