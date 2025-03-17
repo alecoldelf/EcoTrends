@@ -13,6 +13,50 @@
 
 }
 
+.bg-primary-50, .btn-primary-50{
+    background-color: var(--bs-primary-50) !important;
+}
+.bg-primary-100, .btn-primary-100{
+    background-color: var(--bs-primary-100) !important;
+}
+.bg-primary-150, .btn-primary-150{
+    background-color: var(--bs-primary-150) !important;
+}
+.bg-primary-200, .btn-primary-200{
+    background-color: var(--bs-primary-200) !important;
+}
+.bg-primary-250, .btn-primary-250{
+    background-color: var(--bs-primary-250) !important;
+}
+.bg-grayscale-50, .btn-grayscale-50{
+    background-color: var(--bs-grayscale-50) !important;
+}
+.bg-grayscale-100, .btn-grayscale-100{
+    background-color: var(--bs-grayscale-100) !important;
+}
+
+.text-primary-50{
+    color: var(--bs-primary-50) !important;
+}
+.text-primary-100{
+    color: var(--bs-primary-100) !important;
+}
+.text-primary-150{
+    color: var(--bs-primary-150) !important;
+}
+.text-primary-200{
+    color: var(--bs-primary-200) !important;
+}
+.text-primary-250{
+    color: var(--bs-primary-250) !important;
+}
+.text-grayscale-50{
+    color: var(--bs-grayscale-50) !important;
+}
+.text-grayscale-100{
+    color: var(--bs-grayscale-100) !important;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -33,14 +77,6 @@ main{
     height: inherit;
     width: inherit;
 }
-
-/* header{
-    font-size: 24px;
-    position: absolute;
-    width: 100%;
-    z-index: 999;
-} */
-
 
 .navbar-nav{
     grid-gap: 16px;
